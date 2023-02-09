@@ -12,7 +12,6 @@ export default function Home() {
     const [isProcessing, setIsProcessing] = useState(false)
     const [isProcessingDelete, setIsProcessingDelete] = useState(false)
     const [isLoading, setIsLoading] = useState(true)
-    console.log(user.uid)
 
     let array = []
 
